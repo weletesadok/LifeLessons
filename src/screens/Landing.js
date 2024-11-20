@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, TouchableOpacity, ImageBackground } from "react-native";
+import { View, Text, ImageBackground } from "react-native";
 import { Button } from "react-native-elements";
 import tw from "twrnc";
 
@@ -8,32 +8,26 @@ const LandingScreen = ({ navigation }) => {
     <View style={tw`flex-1`}>
       <ImageBackground
         source={{
-          uri: "https://plus.unsplash.com/premium_photo-1663954136833-2600d592d986?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJsYWNrJTIwZ3JhZGllbnR8ZW58MHwxfDB8fHww",
+          uri: "https://cdn.pixabay.com/photo/2022/12/09/00/47/autumn-7644257_640.jpg",
         }}
-        style={[tw`flex-1`, { backgroundColor: "black" }]}
+      />
+      <View
+        style={tw`flex-1 justify-center items-center px-6 bg-black bg-opacity-20`}
       >
-        <View style={tw`flex-1 justify-center items-center px-4`}>
-          <Text style={tw`text-white text-5xl font-bold mb-4`}>
-            Life Lessons
-          </Text>
-
-          <Text style={tw`text-white text-lg text-center mb-8`}>
-            Empower yourself with daily wisdom and insights
-          </Text>
-
-          <Button
-            title="Get Started"
-            buttonStyle={tw`bg-green-600 rounded-full w-80 h-12`}
-            titleStyle={tw`text-white text-lg font-semibold`}
-            onPress={() => navigation.navigate("Categories")}
-          />
-          <TouchableOpacity onPress={() => navigation.navigate("Login")}>
-            <Text style={tw`text-green-600 text-lg mt-4`}>
-              Already have an account? Log In
-            </Text>
-          </TouchableOpacity>
-        </View>
-      </ImageBackground>
+        <Text style={tw`text-white text-4xl font-bold text-center mb-6`}>
+          Shape Your Karma, Shape Your Future
+        </Text>
+        <Text style={tw`text-white text-lg text-center mb-10`}>
+          Embrace mindful actions and positive change to create the life you
+          deserve.
+        </Text>
+        <Button
+          title="Begin Your Journey"
+          buttonStyle={tw`bg-white rounded-full w-72 h-12`}
+          titleStyle={tw`text-black text-lg font-semibold`}
+          onPress={() => navigation.navigate("Categories")}
+        />
+      </View>
     </View>
   );
 };

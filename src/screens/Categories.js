@@ -10,18 +10,16 @@ import { Card } from "react-native-elements";
 import tw from "twrnc";
 
 const categories = [
-  { id: "1", name: "Today's Task List", screen: "ToDoScreen" },
+  { id: "81", name: "Today's Task List", screen: "ToDoScreen" },
+  { id: "5", name: "Daily Habits Tracker", screen: "DailyHabitsScreen" },
   { id: "2", name: "Weekend Planning", screen: "WeekendScreen" },
   { id: "3", name: "Monthly Planning", screen: "MonthlyGoalsScreen" },
-  { id: "4", name: "Annual Vision & Goals", screen: "YearlyGoalsScreen" },
-  { id: "5", name: "Daily Habits Tracker", screen: "DailyHabitsScreen" },
+  { id: "4", name: "On mind ideas yet unplanned", screen: "YearlyGoalsScreen" },
   { id: "6", name: "Motivation Boost", screen: "MotivationScreen" },
-  { id: "7", name: "Mindful Inspirations", screen: "InspirationScreen" },
-  { id: "8", name: "Personal Growth Journey", screen: "PersonalGrowthScreen" },
-  { id: "9", name: "Focus & Productivity", screen: "FocusScreen" },
-  { id: "10", name: "Audio Books for Growth", screen: "AudioBooksScreen" },
-  { id: "11", name: "Self-Care & Wellness", screen: "SelfCareScreen" },
-  { id: "12", name: "Skills & Learning Hub", screen: "LearningHubScreen" },
+  { id: "7", name: "Books Suggestion and Review", screen: "InspirationScreen" },
+  { id: "9", name: "Logic and Reasoning", screen: "FocusScreen" },
+  { id: "10", name: "Demotivation and Reality", screen: "AudioBooksScreen" },
+  { id: "11", name: "Social life", screen: "SelfCareScreen" },
 ];
 
 const CategoriesScreen = ({ navigation }) => {

@@ -4901,6 +4901,11 @@ react-native-size-matters@^0.3.1:
   resolved "https://registry.yarnpkg.com/react-native-size-matters/-/react-native-size-matters-0.3.1.tgz#24d0cfc335a2c730f6d58bd7b43ea5a41be4b49f"
   integrity sha512-mKOfBLIBFBcs9br1rlZDvxD5+mAl8Gfr5CounwJtxI6Z82rGrMO+Kgl9EIg3RMVf3G855a85YVqHJL2f5EDRlw==
 
+react-native-video@^6.8.0:
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/react-native-video/-/react-native-video-6.8.0.tgz#59153558ae014bd3e555f9fc184e1dde16917b60"
+  integrity sha512-4Q4ccIXcPWG4Xm239DyLfTOTP01DYzrlXV4dBkuygINsrGTqua5E4jedkDRjj/KOOjIqDjO1elstZq2sfS2lOg==
+
 react-native-web@^0.19.13:
   version "0.19.13"
   resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.19.13.tgz#2d84849bf0251ec0e3a8072fda7f9a7c29375331"

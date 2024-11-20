@@ -4,12 +4,14 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import LandingScreen from "./src/screens/Landing";
 import Categories from "./src/screens/Categories";
+import { StatusBar } from "expo-status-bar";
 
 const Stack = createStackNavigator();
 
 export default function App() {
   return (
     <SafeAreaProvider>
+      <StatusBar style="light" />
       <NavigationContainer>
         <Stack.Navigator initialRouteName="Landing">
           <Stack.Screen
